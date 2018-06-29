@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetIPAddressRange": {
+      "value": "10.251.10.0/24"
+    },
+    "GatewaySubnetAddressRange": {
+      "value": "10.251.10.0/28"
+    },
+    "DeploySubnetAddressRange": {
+      "value": "10.251.10.16/28"
+    },
+    "FrontendSubnetAddressRange": {
+      "value": "10.251.10.32/28"
+    },
+    "WebSubnetAddressRange": {
+      "value": "10.251.10.48/28"
+    },
+    "DataSubnetAddressRange": {
+      "value": "10.251.10.64/28"
+    },
+    "AppSubnetAddressRange": {
+      "value": "10.251.10.96/27"
+    },
+    "ActiveDirectoryIPAddress": {
+      "value": "10.1.2.5/32"
+    },
+    "UaaServerIPAddress": {
+      "value": "10.252.10.53/32"
+    },
+    "BiDatabaseServerIPAddress": {
+      "value": "10.252.10.69/32"
+    },
+    "ApacDeployServerIPAddress": {
+      "value": "10.1.2.5/32"
+    },
+    "SftpServerIPAddress": {
+      "value": "10.252.10.53/32"
+    },
+    "MuleSoftIPAddressRange": {
+      "value": "10.200.0.0/24"
+    },
+    "DeploySubnetSecurityGroupName": {
+      "value": "c001_b_de_nsg"
+    },
+    "FrontendSubnetSecurityGroupName": {
+      "value": "c001_b_fe_nsg"
+    },
+    "WebSubnetSecurityGroupName": {
+      "value": "c001_b_we_nsg"
+    },
+    "DataSubnetSecurityGroupName": {
+      "value": "c001_b_da_nsg"
+    },
+    "AppSubnetSecurityGroupName": {
+      "value": "c001_b_ap_nsg"
+    }
+  }
+}
+

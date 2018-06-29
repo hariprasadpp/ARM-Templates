@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualMachineName": {
+      "value": "EYALFBHLP001"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_A2_v2"
+    },
+    "adminUsername": {
+      "value": "eyadmin"
+    },
+    "virtualNetworkName": {
+      "value": "EYALFPVNET001"
+    },
+    "networkInterfaceName": {
+      "value": "EYALFBHLP001NIC"
+    },
+    "adminPassword": {
+      "value": "5ZJcsuPN3L"
+    },
+    "diagnosticsStorageAccountName": {
+      "value": "eyalfdiagblob"
+    },
+   "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "environment": {
+      "value": "PRODUCTION"
+    },
+    "applicationGroup": {
+      "value": "DMZ"
+    },
+    "applicationName": {
+      "value": "BastionHost"
+    },
+    "subnetName": {
+      "value": "EYALFPSNET002"
+    },
+    "privateIPAddressName": {
+      "value": "10.22.0.5"
+    },
+   "publicIpAddressSku": {
+      "value": "Basic"
+    },
+    "publicIpAddressName": {
+      "value": "EYALFPSNET002PIP"
+    }
+  }
+}

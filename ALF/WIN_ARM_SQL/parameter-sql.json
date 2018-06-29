@@ -1,0 +1,70 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "australiaeast"
+        },
+        "virtualMachineName": {
+            "value": "EYALFDBWP001"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS13_v2"
+        },
+        "adminUsername": {
+            "value": "eyadmin"
+        },
+        "virtualNetworkName": {
+            "value": "EYALFPVNET001"
+        },
+        "networkInterfaceName": {
+            "value": "EYALFDBWP001_NIC"
+        },
+        "adminPassword": {
+            "value": "5ZJcsuPN3L"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "eyalfdiagblob"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/890e6987-d453-43b2-aa5e-139603074899/resourceGroups/EYALFPRODRG001/providers/Microsoft.Storage/storageAccounts/eyalfdiagblob"
+        },
+        "subnetName": {
+            "value": "EYALFPSNET003"
+        },
+        "sqlConnectivityType": {
+            "value": "Private"
+        },
+        "sqlPortNumber": {
+            "value": 1433
+        },
+        "sqlStorageDisksCount": {
+            "value": 1
+        },
+        "sqlStorageWorkloadType": {
+            "value": "GENERAL"
+        },
+        "sqlStorageDisksConfigurationType": {
+            "value": "NEW"
+        },
+        "sqlStorageStartingDeviceId": {
+            "value": 2
+        },
+        "sqlStorageDeploymentToken": {
+            "value": 123
+        },
+        "sqlAutopatchingDayOfWeek": {
+            "value": "Sunday"
+        },
+        "sqlAutopatchingStartHour": {
+            "value": "2"
+        },
+        "sqlAutopatchingWindowDuration": {
+            "value": "60"
+        },
+        "rServicesEnabled": {
+            "value": "false"
+        }
+    }
+}
+
