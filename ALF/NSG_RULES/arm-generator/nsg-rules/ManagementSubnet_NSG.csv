@@ -1,2 +1,0 @@
-name,sourceAddressPrefix,sourcePortRange,destinationAddressPrefix,destinationPortRange,protocol,direction,access,priority,description
-Allow_RDP_onPrem_EY_DataLayer,[parameters('vnetIPAddressRange')],*,[parameters('ManagementSubnetAddressRange')],3389,Tcp,Inbound,Allow,100,Required for SSH remote management from EY

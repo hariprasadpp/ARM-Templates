@@ -1,2 +1,0 @@
-name,sourceAddressPrefix,sourcePortRange,destinationAddressPrefix,destinationPortRange,protocol,direction,access,priority,description
-Allow_SSH_onPrem_EY_AppLayer,*,*,[parameters('DMZSubnetAddressRange')],22,Tcp,Inbound,Allow,100,Required for RDP remote management from EY
